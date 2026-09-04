@@ -1,0 +1,19 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+
+# never commit secrets
+*.key
+*.pem
+*.p12
+*.pfx
+.ssh/
+id_rsa
+id_ed25519
+
+# editor
+.vscode/
+.idea/
+*.swp
